@@ -1,82 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marta's Personal Site</title>
+    <title>Marta Majchrzak Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-           <td> <img src="images-modified.png" alt="marta profile picure"></td>
-           <td><h1>Marta Majchrzak</h1>
-            <p> <em>Software Consultant in R&D, Post-implementation Clinical Team in <strong> <a target="_blank" rel="noopener noreferrer" href="https://www.veeva.com/"> Veeva</a></strong> .<br>
-                    Previously a Software Consultant for <strong><a target="_blank" rel="noopener noreferrer" href="https://www.infomed-software.pl/">Infomed Software</a></strong> , a company providing software for medical facilities.<br>
-                    Currently working on becoming a Software Engineer.</em> 
-            </p>
-            <p>I am a software consultant from Poland who is willing to become a software engineer. I love sport, especially playing basketball🏀.</p></td> 
-        </tr>
-    </table>
-   
-    
-    <hr size="3" >
-    <h3>Education</h3>
-    <ul>
-        <li>2013-2017 Biomedical Engineering, Wroclaw University of Science and Technology - engineer degree</li>
-        <li>2017-2019 Biomedical Engineering (medical electronics), Wroclaw University of Science and Technology - master  degree</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Position</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2019-2022</td>
-                <td>Software Consultant in Infomed Software</td>
-            </tr>
-            <tr>
-                <td>2022 - current</td>
-                <td>Software Consultant in Veeva and member of Technical Team</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>
-        Skills
-    </h3>
-    <table cellspacing="10">
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Marta</h1>
+        <h2>I want to become a programmer.<h2>
+        <img  class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
 
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>PostgreSQL </td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td> Consulting Skills </td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Postman and API </td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
 
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contactme.html">Contact me!</a>
-    
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/images-modified.png" alt="profile-picture">
+          <h2>Hello!</h2>
+          <p class="about-me">My name is Marta and I am from Poland. I am currently working as Software Implementation specialist in Veeva Systems,
+             but after work I am learing Python and Java to become a programmer. I ❤️ running, playing basketball and reading books, but my biggest passion is hiking.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="postgresql-img" src="images/database_blue.png" alt="">
+            <h3>PostgreSQL</h3>
+            <p>I started my professional career as a Software Specialist in a very small company. I was responsible for preparing advanced SQL queries for customers, creating, updating code in PostgreSQL databases.
+         I was involved in Product Development and Product Implementation. This is when I started developing my interest in coding. </p>
+          </div>
+          <div class="skill-row">
+            <img class="terminal-img" src="images/terminal.png" alt="">
+            <h3>UNIX terminal </h3>
+            <p >As a part of my job, I was responsible for remotely upgrading our customers' applications. This allowed me to learn basic Linux commends to login, upload files, navigate through catalouges, update files etc.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Drop me an email if you find my skills set interesting!</h3>
+          <p>We can share some hiking experiences as well 😉</p>
+          <a class="btn" href="mailto:martamajchrzak94@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/marta-majchrzak-b06b66184/?locale=en_US">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/MartaMajchrzak">GitHub</a>
+        <p class="copyrights">© 2023 Marta Majchrzak</p>
+      </div>
+      
+
 </body>
-
 </html>
